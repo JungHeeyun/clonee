@@ -6,14 +6,13 @@ import { getAuth } from "firebase/auth";
 import {getFirestore} from 'firebase/firestore'
 
 
-// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: YOUR_API_KEY,
-  authDomain: YOUR_AUTH_DOMAIN,
-  projectId: YOUR_PROJECT_ID,
-  storageBucket: YOUR_STORAGE_BUCKET,
-  messagingSenderId: YOUR_MESSAGING_SENDER_ID,
-  appId: YOUR_APP_ID
+  apiKey: "AIzaSyAo_PILqdxQ69PJv-8txXqKgX6_9OO2kzo",
+  authDomain: "randchat-ff82f.firebaseapp.com",
+  projectId: "randchat-ff82f",
+  storageBucket: "randchat-ff82f.appspot.com",
+  messagingSenderId: "918862606021",
+  appId: "1:918862606021:web:fc9f6612db3842d8624aac"
 };
 
 // Initialize Firebase
